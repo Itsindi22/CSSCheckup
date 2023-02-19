@@ -1,61 +1,36 @@
-body{
-    background-color:orange;
+#fire-pokemon {
+    background:red;
 }
-.United {
-    margin:10px;
-    border:30px solid red;git add .
+#water-pokemon {
+    background:blue;
 }
-
-
-header{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:50px;
+.border-style {
+    border-style:outset;
+    height:20px;
 }
-.Indiana{
-    color:blue;
-    font-size:17px;
-    margin: 50px;
-    border:5px solid black;
-    height:100px 
-   
-  
+.nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-left: 10px;
+    width: 100px;
+    background-color: lightgrey;
+    border: 3px solid navy;
+    z-index: 5;
+  }
+.font-style{
+    color:white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin:20px
+;
 }
-#States{
-    background-color:white;
-    border:30px solid green;
-    height:100px;
-}
-
-#Brazil{
-
-    margin:10px;
-    border:30px solid green;
-}
-.Brazil{
-
-    margin:10px;
-    border:30px solid green;
-
-
-}
-#Indiana{
-    color:aqua;
-    font-size:30px;
-text-align: center;
- 
-
-}
-#kentucky{
-    color:red;
-    font-family: 'Courier New', Courier, monospace;
-    font-size:30px;
-    text-align:center;
-}
-#Texas{
-    color:brown;
-    font-size:30px;
-    text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
-    
-}
- 
+.nav {
+    position: fixed;
+    top: 0;
+   left:100;
+    padding-left: 10px;
+    width: 250px;
+    background-color: rgb(211, 211, 211);
+    border: 3px solid rgb(0, 128, 49);
+    z-index: 5;
+  }
